@@ -142,6 +142,8 @@ public class ListMapper : IGoogleVisualizable // implement the IGoogleVisualizab
         
 ## HTML
 
+Refer to https://developers.google.com/chart/interactive/docs/gallery/ganttchart
+
 ```<html>
 <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
