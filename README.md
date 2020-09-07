@@ -12,6 +12,8 @@ JSONHelper- This class has one method that accepts IEnumerable<IGoogleVisualizab
   
 ## Example
 
+Example of helper class that implements IGoogleVisualizable, maps all properties and returns merged collection that you will transform with JsonHelper class.
+
 ```
 public class ListMapper : IGoogleVisualizable // implement the IGoogleVisualizable interface
     {
@@ -116,6 +118,8 @@ public class ListMapper : IGoogleVisualizable // implement the IGoogleVisualizab
 ```
 
 ## API
+
+In the HttpGet call I call the ConvertLists() method and then pass the output to JSONHelper.BuildArray and return its output. The variable value contains everything needed to generate the gantt chart
 
 ```
     
